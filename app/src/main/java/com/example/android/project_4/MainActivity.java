@@ -23,28 +23,28 @@ public class MainActivity extends AppCompatActivity {
         category_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent nowPlayingIntent = new Intent(MainActivity.this, nowPlaying.class);
+                Intent nowPlayingIntent = new Intent(MainActivity.this, nowPlayingActivity.class);
                 startActivity(nowPlayingIntent);
             }
         });
         category_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent songsIntent = new Intent(MainActivity.this, songs.class);
+                Intent songsIntent = new Intent(MainActivity.this, songsActivity.class);
                 startActivity(songsIntent);
             }
         });
         category_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent albumsIntent = new Intent(MainActivity.this, albums.class);
+                Intent albumsIntent = new Intent(MainActivity.this, albumsActivity.class);
                 startActivity(albumsIntent);
             }
         });
         category_4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent artistIntent = new Intent(MainActivity.this, artists.class);
+                Intent artistIntent = new Intent(MainActivity.this, artistsActivity.class);
                 startActivity(artistIntent);
             }
         });

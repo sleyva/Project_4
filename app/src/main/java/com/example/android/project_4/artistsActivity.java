@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class artists extends AppCompatActivity {
+public class artistsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,25 +14,25 @@ public class artists extends AppCompatActivity {
     }
 
     public void buttonClickHome(View view){
-        Intent buttonIntent = new Intent(artists.this, MainActivity.class);
+        Intent buttonIntent = new Intent(artistsActivity.this, MainActivity.class);
         startActivity(buttonIntent);
     }
 
     public void buttonClickNowPlaying(View view){
-        Intent buttonIntent = new Intent(artists.this, nowPlaying.class);
+        Intent buttonIntent = new Intent(artistsActivity.this, nowPlayingActivity.class);
         startActivity(buttonIntent);
     }
 
     public void buttonClickSongs(View view) {
-        Intent buttonIntent = new Intent(artists.this, songs.class);
+        Intent buttonIntent = new Intent(artistsActivity.this, songsActivity.class);
         startActivity(buttonIntent);
     }
     public void buttonClickAlbums(View view) {
-        Intent buttonIntent = new Intent(artists.this, albums.class);
+        Intent buttonIntent = new Intent(artistsActivity.this, albumsActivity.class);
         startActivity(buttonIntent);
     }
     public void buttonClickArtists(View view) {
-        Intent buttonIntent = new Intent(artists.this, artists.class);
+        Intent buttonIntent = new Intent(artistsActivity.this, artistsActivity.class);
         startActivity(buttonIntent);
     }
 }

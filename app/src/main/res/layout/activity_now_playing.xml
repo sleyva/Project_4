@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/categoryBackground"
     android:orientation="vertical"
-    tools:context="com.example.android.project_4.nowPlaying">
+    tools:context=".nowPlayingActivity">
 
     <TextView
         style="@style/titleText"

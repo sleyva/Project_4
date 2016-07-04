@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Project_4</string>
+    <string name="title">myMusic</string>
+    <string name="category_main">Home</string>
+    <string name="category_1">Now Playing</string>
+    <string name="category_2">Songs</string>
+    <string name="category_3">Albums</string>
+    <string name="category_4">Artists</string>
+    <string name="potentialSolution_1">Potential solution: Use mediastore.Audio and store music in a sql table called Music adding a Boolean field called isPlaying to each row. isPlaying is true if song is playing or the default state of isPlaying is set to false (maybe radio group with hidden radio buttons that defense only allow one true at a time) and using a SQL query SELECT * FROM Music WHERE isPlaying = true;</string>
+    <string name="activityPurpose_1">This Activity will display current playing song</string>
+    <string name="potentialSolution_2">Pulling from same Music SQL table use Select * FROM Music ORDER BY name DESC Pulling data and ordering alphabetically </string>
+    <string name="activityPurpose_2">Will show all songs in alphabetical order</string>
+    <string name="potentialSolution_3">Pulling from same Music SQL table use SELECT DISTINCT albums FROM Music ORDER BY albums DESC Pulling data and ordering alphabetically</string>
+    <string name="activityPurpose_3">Will show all albums in alphabetical order</string>
+    <string name="potentialSolution_4">Pulling from same Music SQL table use SELECT DISTINCT artists FROM Music ORDER BY artist DESC Pulling data and ordering alphabetically </string>
+    <string name="activityPurpose_4">Will show artists in alphabetical order</string>
+</resources>

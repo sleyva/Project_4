@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/categoryBackground"
+    android:orientation="vertical"
+    tools:context="com.example.android.project_4.nowPlaying">
+
+    <TextView
+        style="@style/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/category_1" />
+
+    <TextView
+        style="@style/categoryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activityPurpose_1" />
+
+    <TextView
+        style="@style/categoryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/potentialSolution_1" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="8dp"
+        android:gravity="center">
+
+        <Button style="@style/buttonStyle_1"
+            android:text="@string/category_main"/>
+        <Button style="@style/buttonStyle_3"
+            android:text="@string/category_2"/>
+        <Button style="@style/buttonStyle_4"
+            android:text="@string/category_3"/>
+        <Button style="@style/buttonStyle_5"
+            android:text="@string/category_4"/>
+    </LinearLayout>
+</LinearLayout>

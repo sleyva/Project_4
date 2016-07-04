@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.project_4.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/categoryBackground">
+    <TextView android:id="@+id/title"
+        style="@style/titleText"
+        android:text="@string/title"
+         />
+
+    <TextView android:id="@+id/category_1"
+        style="@style/categoryText"
+        android:text="@string/category_1"
+         />
+    <TextView android:id="@+id/category_2"
+        style="@style/categoryText"
+        android:text="@string/category_2"
+         />
+    <TextView android:id="@+id/category_3"
+        style="@style/categoryText"
+        android:text="@string/category_3"
+         />
+    <TextView android:id="@+id/category_4"
+        style="@style/categoryText"
+        android:text="@string/category_4"
+        />
+
+
+</LinearLayout>
